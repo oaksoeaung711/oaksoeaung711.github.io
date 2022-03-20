@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    margin-right: 2em;
+}
+
+#menu-toggle,
+.menu-button-container {
+    display: none;
+}
+
+.menu-button-container {
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #231f20;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before{
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+.button{
+    border-radius: 1em;
+    padding: 1em;
+    width: 7em;
+}
+
+.primary-button{
+    margin-right: 1em;
+    background-color: #f7f9fc;
+    border-style: none;
+}
+
+.secondary-button{
+    background-color: #231f20;
+    color: #f7f9fc;
+    border-style: none;
+    width: 7.5em;
+}
+
+.hero-section{
+    background-image: url("../img/confetti-doodles.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-para{
+    font-size: 3em;
+    width: 65%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.second-para{
+    font-size: 1em;
+    width: 65%;
+    text-align: center;
+    margin-top: 0.5em;
+    color: grey;
+}
+
+.hero-buttons {
+    margin: 1em 0;
+}
+
+.hero-first-button{
+    width: 7.5em;
+}
+
+.hero-second-button{
+    width: 9em;
+}
+
+@media screen and (max-width: 800px) {
+    header nav li {
+        margin-right: 0.5em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nav {
+        display: none;
+    }
+    .menu-button-container {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+    }
+}
