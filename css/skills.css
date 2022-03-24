@@ -125,3 +125,10 @@ body {
 .fs{
   font-size: 17px !important;
 }
+
+@media only screen and (max-width: 770px) {
+    .skillimg{
+        position: relative;
+        bottom: 0;
+    }
+}
