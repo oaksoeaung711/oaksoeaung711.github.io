@@ -128,8 +128,7 @@ body {
 
 @media only screen and (max-width: 770px) {
     .skillimg{
-        display: none;
-        /* position: relative;
-        bottom: 0; */
+        position: relative;
+        bottom: 0;
     }
 }
