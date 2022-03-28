@@ -1,50 +1,50 @@
-.wrapper{
-    width: 75%;
-    margin: 0 auto;
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
 }
-body{
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
 }
-header{
-    margin-top: 50px;
+header {
+  margin-top: 50px;
 }
-header h4{
-    display: inline;
-}
-
-header nav{
-    display: inline;
-    margin-left: 300px;
+header h4 {
+  display: inline;
 }
 
-header nav ul li .promo{
-    width: 120px;
-}
-header ul{
-    display: inline;
+header nav {
+  display: inline;
+  margin-left: 300px;
 }
 
-header li{
-    display: inline;
-    margin: 10px;
+header nav ul li .promo {
+  width: 120px;
+}
+header ul {
+  display: inline;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: #000000;
+header li {
+  display: inline;
+  margin: 10px;
 }
 
-nav ul li a:hover{
-    text-decoration: underline wavy;
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
 }
 
-div .p1{
-    font-size: 50px;
+nav ul li a:hover {
+  text-decoration: underline wavy;
 }
 
-div .p2{
-    font-size: 30px;
-    color: #738076;
+div .p1 {
+  font-size: 50px;
+}
+
+div .p2 {
+  font-size: 30px;
+  color: #738076;
 }

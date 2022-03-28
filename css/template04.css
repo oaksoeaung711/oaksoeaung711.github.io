@@ -1,22 +1,22 @@
-.hero-section{
-    background-image: url("../img/confetti-doodles.svg");
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-    margin: 0 auto;
-    margin-top: 0;
-    align-items: center;
+.hero-section {
+  background-image: url("../img/confetti-doodles.svg");
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 0;
+  align-items: center;
 }
-.first-para{
-    font-size: 3em;
-    width: 65%;
-    text-align: center;
-    margin-top: 1em;
+.first-para {
+  font-size: 3em;
+  width: 65%;
+  text-align: center;
+  margin-top: 1em;
 }
-.second-para{
-    font-size: 1em;
-    width: 65%;
-    text-align: center;
-    margin-top: 0.5em;
-    color: grey;
+.second-para {
+  font-size: 1em;
+  width: 65%;
+  text-align: center;
+  margin-top: 0.5em;
+  color: grey;
 }

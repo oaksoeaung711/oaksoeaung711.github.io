@@ -1,100 +1,104 @@
-body{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1980' height='1080' preserveAspectRatio='none' viewBox='0 0 1980 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1980' height='1080' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M -441.69111458348857%2c299 C -309.69%2c351.4 -45.69%2c540.2 218.3088854165114%2c561 C 482.31%2c581.8 614.31%2c333 878.3088854165114%2c403 C 1142.31%2c473 1274.31%2c943.4 1538.3088854165114%2c911 C 1802.31%2c878.6 2109.97%2c259.4 2198.308885416511%2c241 C 2286.65%2c222.6 2023.66%2c703.4 1980%2c819' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -818.3122575173686%2c766 C -686.31%2c711.2 -422.31%2c505.8 -158.31225751736858%2c492 C 105.69%2c478.2 237.69%2c704 501.6877424826314%2c697 C 765.69%2c690 897.69%2c479.4 1161.6877424826314%2c457 C 1425.69%2c434.6 1658.03%2c569 1821.6877424826314%2c585 C 1985.35%2c601 1948.34%2c546.6 1980%2c537' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -326.9434825701753%2c442 C -194.94%2c514.6 69.06%2c860.2 333.0565174298247%2c805 C 597.06%2c749.8 729.06%2c147 993.0565174298247%2c166 C 1257.06%2c185 1389.06%2c880.4 1653.0565174298247%2c900 C 1917.06%2c919.6 2247.67%2c332 2313.0565174298245%2c264 C 2378.45%2c196 2046.61%2c500.8 1980%2c560' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -948.695147585211%2c967 C -816.7%2c863.4 -552.7%2c491.2 -288.695147585211%2c449 C -24.7%2c406.8 107.3%2c812 371.304852414789%2c756 C 635.3%2c700 767.3%2c127 1031.304852414789%2c169 C 1295.3%2c211 1501.57%2c911.2 1691.304852414789%2c966 C 1881.04%2c1020.8 1922.26%2c547.6 1980%2c443' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1980' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1980' height='1080' preserveAspectRatio='none' viewBox='0 0 1980 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1980' height='1080' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M -441.69111458348857%2c299 C -309.69%2c351.4 -45.69%2c540.2 218.3088854165114%2c561 C 482.31%2c581.8 614.31%2c333 878.3088854165114%2c403 C 1142.31%2c473 1274.31%2c943.4 1538.3088854165114%2c911 C 1802.31%2c878.6 2109.97%2c259.4 2198.308885416511%2c241 C 2286.65%2c222.6 2023.66%2c703.4 1980%2c819' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -818.3122575173686%2c766 C -686.31%2c711.2 -422.31%2c505.8 -158.31225751736858%2c492 C 105.69%2c478.2 237.69%2c704 501.6877424826314%2c697 C 765.69%2c690 897.69%2c479.4 1161.6877424826314%2c457 C 1425.69%2c434.6 1658.03%2c569 1821.6877424826314%2c585 C 1985.35%2c601 1948.34%2c546.6 1980%2c537' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -326.9434825701753%2c442 C -194.94%2c514.6 69.06%2c860.2 333.0565174298247%2c805 C 597.06%2c749.8 729.06%2c147 993.0565174298247%2c166 C 1257.06%2c185 1389.06%2c880.4 1653.0565174298247%2c900 C 1917.06%2c919.6 2247.67%2c332 2313.0565174298245%2c264 C 2378.45%2c196 2046.61%2c500.8 1980%2c560' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -948.695147585211%2c967 C -816.7%2c863.4 -552.7%2c491.2 -288.695147585211%2c449 C -24.7%2c406.8 107.3%2c812 371.304852414789%2c756 C 635.3%2c700 767.3%2c127 1031.304852414789%2c169 C 1295.3%2c211 1501.57%2c911.2 1691.304852414789%2c966 C 1881.04%2c1020.8 1922.26%2c547.6 1980%2c443' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1980' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
 .bg-dark {
-    --bs-bg-opacity: 0;
+  --bs-bg-opacity: 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 1);
-    display: inline-block;
+  color: rgba(255, 255, 255, 1);
+  display: inline-block;
 
-    transition: all 1s;
+  transition: all 1s;
 }
 
-.nav-link:focus , .nav-link:hover{
-    background-color: #fff;
-    border-radius: 10px;
-    color: #070e17 !important;
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #070e17 !important;
 }
 
 .serviceimg {
-    width: 300px;
-    height: 400px;
-    position: absolute;
-    bottom: 0;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  bottom: 0;
 }
-
 
 .slide1 {
-    position: absolute;
-    top: 100px;
-    right: -50%;
-    width: 50%;
-    /* height: 40px; */
-    border-radius: 20px;
-    /* height: 100px; */
-    background: #094848;
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 0.5s;
-    animation: slide 0.5s forwards;
-    animation-delay: 0.5s;
+  position: absolute;
+  top: 100px;
+  right: -50%;
+  width: 50%;
+  /* height: 40px; */
+  border-radius: 20px;
+  /* height: 100px; */
+  background: #094848;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
 }
-.service1{
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bolder;
-    color: #fff;
+.service1 {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff;
 }
 
 .slide2 {
-    position: absolute;
-    top: 200px;
-    right: -50%;
-    width: 50%;
-    /* height: 40px; */
-    border-radius: 20px;
-    background: #1f1f64;
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 0.5s;
-    animation: slide 0.5s forwards;
-    animation-delay: 0.5s;
+  position: absolute;
+  top: 200px;
+  right: -50%;
+  width: 50%;
+  /* height: 40px; */
+  border-radius: 20px;
+  background: #1f1f64;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
 }
-.service2{
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bolder;
-    color: #fff;
+.service2 {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff;
 }
 
 .slide3 {
-    position: absolute;
-    top: 300px;
-    right: -50%;
-    width: 50%;
-    /* height: 40px; */
-    border-radius: 20px;
-    /* height: 100px; */
-    background: #640709;
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 0.5s;
-    animation: slide 0.5s forwards;
-    animation-delay: 0.5s;
+  position: absolute;
+  top: 300px;
+  right: -50%;
+  width: 50%;
+  /* height: 40px; */
+  border-radius: 20px;
+  /* height: 100px; */
+  background: #640709;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
 }
-.service3{
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bolder;
-    color: #fff;
+.service3 {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff;
 }
 
 @-webkit-keyframes slide {
-    100% { right: 0; }
+  100% {
+    right: 0;
+  }
 }
 
 @keyframes slide {
-    100% { right: 0; }
+  100% {
+    right: 0;
+  }
 }
 /* .service1{
     width: 100%;
@@ -124,28 +128,28 @@ body{
 } */
 
 .pad {
-    margin: auto 0px auto 0px;
+  margin: auto 0px auto 0px;
 }
 
 @media only screen and (max-width: 770px) {
-    .service1{
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bolder;
-        color: #fff;
-    }
+  .service1 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+  }
 
-    .service2{
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bolder;
-        color: #fff;
-    }
+  .service2 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+  }
 
-    .service3{
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bolder;
-        color: #fff;
-    }
+  .service3 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+  }
 }
