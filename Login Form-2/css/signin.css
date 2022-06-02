@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/wallpaperflare.com_wallpaper\ \(11\).jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    height: 100vh;
+
+    margin: 0 auto;
+
+    box-shadow: 2px 4px 5px #04162C;
+
+    backdrop-filter: blur(10px);
+
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    color: #04162C;
+    margin: 0;
+    padding-top: 30px;
+}
+
+p {
+    margin-top: 60px;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(4, 22, 44, 0.863);
+}
+
+.form-group {
+    width: 60%;
+    /* height: 100%; */
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.form-group input {
+    display: block;
+    width: 100%;
+    
+    padding: 15px 0 15px 50px;
+    margin: 50px 0;
+
+    border: none;
+    border-radius: 5px;
+
+    outline: none;
+
+    font-size: 16px;
+    color: #04162C;
+}
+
+.form-group input::placeholder {
+    color: rgba(4, 22, 44, 0.452);
+}
+
+.form-group i {
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid red; */
+    text-align: center;
+    line-height: 30px;
+    color: #04162C;
+
+
+}
+
+.fa-user {
+    position: absolute;
+    top: 9.6px;
+    left: 8px;
+}
+
+.fa-key {
+    position: absolute;
+    top: 107px;
+    left: 8px;
+}
+
+.btn {
+    width: 60%;
+    /* height: 100%; */
+
+    margin: 0 auto;
+}
+
+.btn button {
+    width: 100%;
+    height: 50px;
+
+    background-color: #04162C;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.social {
+    width: 60%;
+    
+    margin: 0 auto;
+
+    text-align: center;
+
+    margin-top: 100px;
+    /* position: absolute; */
+}
+
+.social a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+
+    margin: 0 20px;
+    background-color: #04162C;
+
+    border-radius: 100%;
+}
+
+.social a i {
+    width: 100%;
+
+    font-size: 20px;
+    line-height: 60px;
+
+    color: #fff;
+
+}

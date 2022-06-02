@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+
+:root {
+    --primary-color: #e0213a;
+    --font-color: #0F1025;
+    --secondary-color: rgba(205, 38, 77, 0.699);
+    --third-color: rgba(243, 4, 44, 0.158);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    
+    background-image: url('../img/background-img.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+    float: left;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+
+    position: relative;
+
+    float: left;
+}
+
+.right::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.words {
+    position: absolute;
+    left: 25%;
+
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: var(--primary-color);
+    font-size: 35px;
+}
+
+.leaf {
+    width: 250px;
+    height: 80px;
+   
+    background-image: url('../img/feuille-leaf.svg');
+    background-repeat: no-repeat;
+    background-position: 140px 0;
+}
+
+p {
+    color: var(--secondary-color);
+}
+
+i {
+    display: inline-block;
+    
+    margin-right: 10px;
+}
+
+.other i {
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+    
+    background-color: #e0213a;
+    
+    line-height: 50px;
+    color: #fff;
+}
+
+.detail {
+    width: 379px;
+    height: fit-content;
+
+    position: absolute;
+    top: 33%;
+    left: 25%;
+
+}
+
+label {
+    display: block;
+    
+    margin: 10px 0; 
+    
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+input {
+    width: 379px;
+    display: block;
+    
+    outline: none;
+    border-style: none none solid none;
+    border-width: 2px;
+    border-color: rgba(205, 38, 77, 0.432);
+    
+    margin: 10px 0;
+    
+    font-size: 14px;
+    color: #0F1025;
+}
+
+input:focus{
+    border-color: rgb(205, 38, 77);
+}
+
+::placeholder {
+    color: var(--third-color);
+    font-size: 14px;
+}
+
+.or {
+    width: 100%;
+    margin: 15px 0;
+    
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.btn {
+    width: 379px;
+    height: 40px;
+    
+    border-radius: 3px;
+
+    margin-top: 20px;
+    
+    background-color: var(--primary-color);
+    
+    border: none;
+    outline: none;
+
+    font-size: 16px;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #fff;
+    
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    
+    color: var(--primary-color);
+}
+
+.last {
+    margin: 20px 0;
+    
+    color: #e0213a;
+}
+
+.other {
+    text-align: center;
+}
+
+.last a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+::selection {
+    background-color: #e73d54;
+    color: #fff;
+}
